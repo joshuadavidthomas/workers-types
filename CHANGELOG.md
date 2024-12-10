@@ -1,5 +1,45 @@
 # Changelog
 
+## 3.19.0
+
+### Minor Changes
+
+- [`0edd92e`](https://github.com/cloudflare/workers-types/commit/0edd92ef75b20bc9869d06d58ac4a190928f3e91) Thanks [@mrbbot](https://github.com/mrbbot)! - Merge and make optional all `IncomingRequestCfPropertiesGeographicInformation` properties
+
+### Patch Changes
+
+- [#314](https://github.com/cloudflare/workers-types/pull/314) [`59b3f55`](https://github.com/cloudflare/workers-types/commit/59b3f5599dd0240b750fbde4abdb7277178af72b) Thanks [@GregBrimble](https://github.com/GregBrimble)! - feat: Add `passThroughOnException()` to Pages Functions
+
+## 3.18.0
+
+### Minor Changes
+
+- [#307](https://github.com/cloudflare/workers-types/pull/307) [`0721beb`](https://github.com/cloudflare/workers-types/commit/0721bebe14bcf4f70e90d24f147dcd805a3f4d5e) Thanks [@autodecl-bot](https://github.com/apps/autodecl-bot)! - Updated auto-generated types @ 2022-10-21
+
+### Patch Changes
+
+- [#301](https://github.com/cloudflare/workers-types/pull/301) [`17b6d16`](https://github.com/cloudflare/workers-types/commit/17b6d16e2b7d0e8605ae0ed2e704336ef89c2c47) Thanks [@caass](https://github.com/caass)! - Improve the `IncomingRequestCfProperties` type.
+
+  Previously, this type was based on our docs, which didn't include some fields. Now we've gone through the code that generates these fields and ensured that every property matches up.
+
+  Additionally, we added examples and documentation for almost everything, so it should be more clear exactly what a certain property is or isn't.
+
+## 3.17.0
+
+### Minor Changes
+
+- [#294](https://github.com/cloudflare/workers-types/pull/294) [`fba318b`](https://github.com/cloudflare/workers-types/commit/fba318b33a13be2807e04849aac00b62ca8f0679) Thanks [@Frederik-Baetens](https://github.com/Frederik-Baetens)! - Updated auto-generated types @ 2022-10-13
+
+### Patch Changes
+
+- [#280](https://github.com/cloudflare/workers-types/pull/280) [`6e55069`](https://github.com/cloudflare/workers-types/commit/6e550691955478fac33e960bfafe32738bda6016) Thanks [@WalshyDev](https://github.com/WalshyDev)! - Make clientTcpRtt optional
+
+* [#288](https://github.com/cloudflare/workers-types/pull/288) [`4fe75b2`](https://github.com/cloudflare/workers-types/commit/4fe75b2cfc2b58f1cc7e84923ce8be47ae0a93eb) Thanks [@florianmartens](https://github.com/florianmartens)! - Add 'origin-auth' to RequestInitCfPropertiesImage interface. This changes fixes types for users attempting to fetch images from authenticated sources. Before this fix, users had to manually extend the fetch interface to satisfy the TS compiler.
+
+- [#275](https://github.com/cloudflare/workers-types/pull/275) [`c9e2084`](https://github.com/cloudflare/workers-types/commit/c9e2084294d07fccfbcb33c2da281415204083c9) Thanks [@KianNH](https://github.com/KianNH)! - chore: add corporateProxy to request.cf.botManagement
+
+* [#285](https://github.com/cloudflare/workers-types/pull/285) [`b6a5d1a`](https://github.com/cloudflare/workers-types/commit/b6a5d1a040543ce3a37c3aea71fab30dc8cb90d9) Thanks [@sid405](https://github.com/sid405)! - Fix return type of D1PreparedStatement.all
+
 ## 3.16.0
 
 ### Minor Changes
